@@ -1,0 +1,70 @@
+html, body {
+  margin:0; padding:0;
+  height:100%;
+}
+ 
+body {
+  font-family: Arial, sans-serif; 
+}
+
+#centered {
+  position:relative;
+  clear:left;
+  width: 920px;
+  text-align: center;
+  margin:0 auto;
+}
+
+#logo {
+  margin:200px 0px 70px;
+}
+
+#coming_soon {
+  font-size: 22px;
+  margin:20px 0px;
+}
+ 
+#bottom {
+  position:absolute;
+  font-size:14px;
+  bottom:5px; right:8px;
+}
+
+input.labelHighlight {
+  color:gray;
+  text-align: center;
+}
+
+input {
+  font-size:20px;
+  width: 350px;
+  margin:5px;
+}
+
+#submit_button{
+  background:url('../img/button.png') no-repeat;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  border:none;
+  overflow:auto;
+  width:297px;
+  height:29px;
+  cursor: pointer;
+}
+
+#submit_button:active {
+  background:url('../img/buttonpressed.png') no-repeat;
+}
+
+#submit_button:active,:focus {
+ outline-style:none;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+}
